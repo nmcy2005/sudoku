@@ -7,17 +7,20 @@
     <title>Sudoku</title>
   </head>
   <body>
+    <!-- Sudoku grid, the single squares are being added dynamicly in the app.js file with a for loop-->
     <div class="grid"></div>
+
+    <!-- This is the select panel at the bottom, onclick it should execute the function "handleOnClick" inside the app.js file-->
     <div class="select">
-      <div class="button _1" onclick="handleOnClick(this,1)">1</div>
-      <div class="button _2" onclick="handleOnClick(this,2)">2</div>
-      <div class="button _3" onclick="handleOnClick(this,3)">3</div>
-      <div class="button _4" onclick="handleOnClick(this,4)">4</div>
-      <div class="button _5" onclick="handleOnClick(this,5)">5</div>
-      <div class="button _6" onclick="handleOnClick(this,6)">6</div>
-      <div class="button _7" onclick="handleOnClick(this,7)">7</div>
-      <div class="button _8" onclick="handleOnClick(this,8)">8</div>
-      <div class="button _9" onclick="handleOnClick(this,9)">9</div>
+      <div class="button" onclick="handleOnClick(this,1)">1</div>
+      <div class="button" onclick="handleOnClick(this,2)">2</div>
+      <div class="button" onclick="handleOnClick(this,3)">3</div>
+      <div class="button" onclick="handleOnClick(this,4)">4</div>
+      <div class="button" onclick="handleOnClick(this,5)">5</div>
+      <div class="button" onclick="handleOnClick(this,6)">6</div>
+      <div class="button" onclick="handleOnClick(this,7)">7</div>
+      <div class="button" onclick="handleOnClick(this,8)">8</div>
+      <div class="button" onclick="handleOnClick(this,9)">9</div>
     </div>
     <script src="app.js"></script>
   </body>
