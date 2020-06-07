@@ -30,7 +30,7 @@ function displayNumber(item) {
   if (selectedNumber === 0) {
     alert("Please choose a number!");
   } else {
-    item.innerHTML = `${selectedNumber}`;
+    item.innerHTML = `<img width=50px height=50px src="images/${selectedNumber}.jpg"/>`;
   }
 }
 
