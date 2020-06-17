@@ -6,8 +6,8 @@
 }
 
 .grid {
-  width: 470px;
-  height: 470px;
+  width: 468px;
+  height: 467px;
   background-color: lightgrey;
   display: flex;
   flex-wrap: wrap;
@@ -27,7 +27,7 @@
 
 .select {
   margin-top: 30px;
-  width: 450px;
+  width: 470px;
   height: 50px;
   display: flex;
   flex-direction: row;
